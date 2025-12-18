@@ -8,7 +8,7 @@
 ** Written by VirtualBox 7.2.0 (r170228)
 -->
 <VirtualBox xmlns="http://www.virtualbox.org/" version="1.19-windows">
-  <Machine uuid="{0a3e9b80-7736-401f-b722-38791e50c3e7}" name="Xubuntu" OSType="Ubuntu_64" snapshotFolder="Snapshots" lastStateChange="2025-10-07T19:57:25Z">
+  <Machine uuid="{0a3e9b80-7736-401f-b722-38791e50c3e7}" name="Xubuntu" OSType="Ubuntu_64" snapshotFolder="Snapshots" lastStateChange="2025-12-03T05:56:04Z">
     <MediaRegistry>
       <HardDisks>
         <HardDisk uuid="{f0183aca-a280-4ada-9d37-ecdba734b82d}" location="Xubuntu.vdi" format="VDI" type="Normal"/>
@@ -61,21 +61,21 @@
       <Clipboard/>
       <GuestProperties>
         <GuestProperty name="/VirtualBox/GuestAdd/HostVerLastChecked" value="7.2.0" timestamp="1759864056522075000" flags=""/>
-        <GuestProperty name="/VirtualBox/GuestAdd/Revision" value="170228" timestamp="1759864019518662700" flags=""/>
-        <GuestProperty name="/VirtualBox/GuestAdd/Version" value="7.2.0" timestamp="1759864019517685702" flags=""/>
-        <GuestProperty name="/VirtualBox/GuestAdd/VersionExt" value="7.2.0" timestamp="1759864019517685703" flags=""/>
-        <GuestProperty name="/VirtualBox/GuestInfo/Net/0/MAC" value="0800273ADE29" timestamp="1759864019519638505" flags=""/>
-        <GuestProperty name="/VirtualBox/GuestInfo/Net/0/Name" value="enp0s3" timestamp="1759864019521143200" flags=""/>
-        <GuestProperty name="/VirtualBox/GuestInfo/Net/0/Status" value="Up" timestamp="1759864019519638506" flags=""/>
-        <GuestProperty name="/VirtualBox/GuestInfo/Net/0/V4/Broadcast" value="10.0.2.255" timestamp="1759864019519638503" flags=""/>
-        <GuestProperty name="/VirtualBox/GuestInfo/Net/0/V4/IP" value="10.0.2.15" timestamp="1759864019519638502" flags=""/>
-        <GuestProperty name="/VirtualBox/GuestInfo/Net/0/V4/Netmask" value="255.255.255.0" timestamp="1759864019519638504" flags=""/>
-        <GuestProperty name="/VirtualBox/GuestInfo/Net/Count" value="1" timestamp="1759864085287831600" flags=""/>
-        <GuestProperty name="/VirtualBox/GuestInfo/OS/Product" value="Linux" timestamp="1759864019515734700" flags=""/>
-        <GuestProperty name="/VirtualBox/GuestInfo/OS/Release" value="6.8.0-79-generic" timestamp="1759864019515734701" flags=""/>
-        <GuestProperty name="/VirtualBox/GuestInfo/OS/ServicePack" value="" timestamp="1759864019517685701" flags=""/>
-        <GuestProperty name="/VirtualBox/GuestInfo/OS/Version" value="#79~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Aug 15 16:54:53 UTC 2" timestamp="1759864019517685700" flags=""/>
-        <GuestProperty name="/VirtualBox/HostInfo/GUI/LanguageID" value="en_US" timestamp="1759864089147383800" flags="RDONLYGUEST"/>
+        <GuestProperty name="/VirtualBox/GuestAdd/Revision" value="170228" timestamp="1764740071335105105" flags=""/>
+        <GuestProperty name="/VirtualBox/GuestAdd/Version" value="7.2.0" timestamp="1764740071335105103" flags=""/>
+        <GuestProperty name="/VirtualBox/GuestAdd/VersionExt" value="7.2.0" timestamp="1764740071335105104" flags=""/>
+        <GuestProperty name="/VirtualBox/GuestInfo/Net/0/MAC" value="0800273ADE29" timestamp="1764740071340518802" flags=""/>
+        <GuestProperty name="/VirtualBox/GuestInfo/Net/0/Name" value="enp0s3" timestamp="1764740071340518804" flags=""/>
+        <GuestProperty name="/VirtualBox/GuestInfo/Net/0/Status" value="Up" timestamp="1764740071340518803" flags=""/>
+        <GuestProperty name="/VirtualBox/GuestInfo/Net/0/V4/Broadcast" value="10.0.2.255" timestamp="1764740071340518800" flags=""/>
+        <GuestProperty name="/VirtualBox/GuestInfo/Net/0/V4/IP" value="10.0.2.15" timestamp="1764740071339542700" flags=""/>
+        <GuestProperty name="/VirtualBox/GuestInfo/Net/0/V4/Netmask" value="255.255.255.0" timestamp="1764740071340518801" flags=""/>
+        <GuestProperty name="/VirtualBox/GuestInfo/Net/Count" value="1" timestamp="1764740086343083600" flags=""/>
+        <GuestProperty name="/VirtualBox/GuestInfo/OS/Product" value="Linux" timestamp="1764740071334129700" flags=""/>
+        <GuestProperty name="/VirtualBox/GuestInfo/OS/Release" value="6.8.0-83-generic" timestamp="1764740071335105100" flags=""/>
+        <GuestProperty name="/VirtualBox/GuestInfo/OS/ServicePack" value="" timestamp="1764740071335105102" flags=""/>
+        <GuestProperty name="/VirtualBox/GuestInfo/OS/Version" value="#83~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Tue Sep  9 18:19:47 UTC 2" timestamp="1764740071335105101" flags=""/>
+        <GuestProperty name="/VirtualBox/HostInfo/GUI/LanguageID" value="en_US" timestamp="1764740090298461700" flags="RDONLYGUEST"/>
       </GuestProperties>
       <StorageControllers>
         <StorageController name="IDE" type="PIIX4" PortCount="2" useHostIOCache="true" Bootable="true">
