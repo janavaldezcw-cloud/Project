@@ -19,26 +19,12 @@
 
         <p class="subtitle">Never use an insecure password again.</p>
 
-        <!-- LENGTH INPUT (INT) -->
-        <label class="lenLabel" for="pwLen">Password length</label>
-        <input
-          class="lenInput"
-          id="pwLen"
-          type="number"
-          inputmode="numeric"
-          min="4"
-          max="64"
-          placeholder="16"
-        />
-
-        <!-- BUTTON -->
         <button class="cta" id="generateBtn" type="button">
           Generate passwords
         </button>
 
         <hr class="divider" />
 
-        <!-- PASSWORD BOXES -->
         <div class="outputs" role="group" aria-label="Generated passwords">
           <input class="pwbox" id="pw1" type="text" readonly />
           <input class="pwbox" id="pw2" type="text" readonly />
@@ -46,6 +32,7 @@
       </section>
     </main>
 
+    <!-- JS LAST so elements exist -->
     <script src="index.js"></script>
   </body>
 </html>

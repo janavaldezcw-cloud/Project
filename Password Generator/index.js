@@ -24,8 +24,8 @@ function editHTML() {
     const box2 = document.querySelector("#pw2");
 
     btn.addEventListener("click", () => {
-        box1.value = generatePassword(length);
-        box2.value = generatePassword(length);
+        box1.value = generatePassword(16);
+        box2.value = generatePassword(16);
     });
 }
 
