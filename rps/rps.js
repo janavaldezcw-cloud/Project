@@ -28,20 +28,31 @@ function playRound(player) {
 }
 
 function createGame() {
-  let score = {
-    player: 0,
-    computer: 0,
-    ties: 0
-  }
+  let score = { player: 0, computer: 0, ties: 0 };
+
   return {
-    play(playermove) {
-     const  computer = computerMove()
-      const outcome = decideOutcome(playermove, computer)
-      if (outcome === 'win') {
-        score.player++
-      } else if (outcome === 'lose') {
-        score.computer++
-      } else score.ties++
-    }
-  }
+    play(playerMove) {
+      const computer = computerMove();
+      const outcome = decideOutcome(playerMove, computer);
+
+      if (outcome === "win") score.player++;
+      else if (outcome === "lose") score.computer++;
+      else score.ties++;
+
+      return {
+        playerMove: playerMove.toLowerCase(),
+        computer,
+        outcome,
+        score: { ...score },
+      };
+    },
+
+    getScore() {
+      return { ...score };
+    },
+
+    reset() {
+      score = { player: 0, computer: 0, ties: 0 };
+    },
+  };
 }
