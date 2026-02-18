@@ -1,0 +1,121 @@
+/* styles.css */
+:root {
+  --purple: #5b3df6;
+  --card: #ffffff;
+  --panel: #f5f6f8;
+  --text: #2b2b2b;
+  --muted: #7a7a7a;
+  --shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+  --radius: 14px;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #e9eaee;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  color: var(--text);
+}
+
+.app {
+  width: min(420px, 92vw);
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  background: var(--card);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.header {
+  background: var(--purple);
+  padding: 26px 18px 22px;
+  text-align: center;
+}
+
+.title {
+  margin: 0 0 18px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0.2px;
+}
+
+/* Input styled like the big number box */
+.big-number {
+  width: 120px;
+  height: 90px;
+  margin: 0 auto 14px;
+  border: 2px solid rgba(255, 255, 255, 0.35);
+  border-radius: 10px;
+  display: block;
+  background: rgba(255, 255, 255, 0.04);
+
+  color: #fff;
+  font-size: 44px;
+  font-weight: 800;
+  line-height: 90px; /* centers text vertically */
+  text-align: center;
+
+  outline: none;
+}
+
+/* Placeholder color */
+.big-number::placeholder {
+  color: rgba(255, 255, 255, 0.55);
+}
+
+/* remove arrows if browser still treats it like a number input */
+.big-number::-webkit-outer-spin-button,
+.big-number::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.btn {
+  border: none;
+  background: #ffffff;
+  color: #333;
+  padding: 10px 22px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.12);
+}
+
+.btn:active {
+  transform: translateY(1px);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.12);
+}
+
+.content {
+  background: #ffffff;
+  padding: 18px 14px 16px;
+}
+
+.panel {
+  background: var(--panel);
+  border-radius: 10px;
+  padding: 16px 14px;
+  margin: 14px 0;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.04);
+}
+
+.panel h2 {
+  margin: 0 0 8px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #4a4a4a;
+}
+
+.value {
+  font-size: 12.5px;
+  color: var(--muted);
+  letter-spacing: 0.1px;
+}
