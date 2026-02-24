@@ -1,0 +1,26 @@
+body {
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.stock-card {
+    background-color: #e6e6e6;
+    padding: 20px 30px;
+    border-radius: 20px;
+    width: 280px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+
+.stock-card p {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+#price-icon {
+    margin-left: 8px;
+    font-size: 18px;
+}
