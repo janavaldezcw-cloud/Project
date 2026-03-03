@@ -1,4 +1,4 @@
-
+import { stockData } from "./fakeStockAPI"
 
 function renderStockTicker (stockData) {
     const stockDisplayName = document.getElementById('name')
@@ -6,4 +6,15 @@ function renderStockTicker (stockData) {
     const stockDisplayPrice = document.getElementById ('price')
     const stockDisplayPriceIcon = document.getElementById ('price-icon')
     const stockDisplayTime = document.getElementById('time')
+
+
+
+stockDisplayName.innerHTML = `Name:${stockData.name}`
+
+
+
+console.log(stockData)
 }
+
+
+renderStockTicker(stockData)

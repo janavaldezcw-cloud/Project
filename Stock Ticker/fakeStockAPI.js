@@ -1,4 +1,4 @@
-
+export { stockData}
 function getStockData () {
     getStockData.time = Math.random().toFixed(2)
     return {
